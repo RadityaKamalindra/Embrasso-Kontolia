@@ -4,14 +4,12 @@ public class Flora extends Makhluk {
     
     public Flora() {
         super.setType("Flora");
-        super.setUmur(10);
-        super.setJenis("irritability");
-        super.setNama("Embrasso Kontolia");
-        super.setBanyak(2);
+        super.setWarna("Merah");
+        super.setGenus("Carlquistia");
     }
     
-    public Flora(String t, int u, String j, String n, double b) {
-        super(t, u, j, n, b);
+    public Flora(String t, String j) {
+        super(t, j);
     }
 
     public void display() {
@@ -20,6 +18,7 @@ public class Flora extends Makhluk {
    
 }
  
+
 
 
 
