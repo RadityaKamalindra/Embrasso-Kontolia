@@ -1,5 +1,5 @@
 package Project;
-
+ 
 public class Makhluk {
     String type;
     int umur;
@@ -12,13 +12,13 @@ public class Makhluk {
         this.umur = 0;
         this.jenis = "Unknown";
         this.nama = "Unknown";
-        this.banyak = 0;
+        this.banyak= 0;
     }
 
     public Makhluk(String t, int u, String j, String n, double b) {
         this.type = t;
         this.umur = u;
-        this.jenis = j;
+        this.jenis= j;
         this.nama = n;
         this.banyak = b;
     }
@@ -64,10 +64,10 @@ public class Makhluk {
     }
 
     public void print() {
-        System.out.println("Type: " + type );
+        System.out.println("Type: " + type);
         System.out.println("Umur: " + umur + " tahun");
         System.out.println("Jenis: " + jenis);
         System.out.println("Nama: " + nama);
-        System.out.println("Banyak: " + banyak + " di bumi");
+        System.out.println("Banyak: " +    banyak );
     }
 }
