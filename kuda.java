@@ -22,6 +22,9 @@ public class kuda extends Fauna {
 
     public void print() {
         super.print();
+        System.out.println("Kecepatan: " + kecepatan);
+        System.out.println("Kekuatan: " + kekuatan);
     }
     
 }  
+
